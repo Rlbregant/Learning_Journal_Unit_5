@@ -4,6 +4,7 @@ captain = "Malcolm Reynolds"
 first_name = captain[:8]
 last_name = captain[9:]
 print(first_name + " 'Mal' " + last_name + " 'Reynolds'")
+
 Output: 'Malcolm 'Mal' Reynolds'
 
 #In this example, we use string concatenation to create a new string that includes the first and last name of the
@@ -15,6 +16,7 @@ Output: 'Malcolm 'Mal' Reynolds'
 ship_name = "Serenity"
 reversed_name = ship_name[::-1]
 print(reversed_name)
+
 Output: 'ytinereS'
 
 #In this example, we use string slicing to reverse the order of the characters in the string representing the name of
@@ -27,6 +29,7 @@ if "Wash" in pilot[8:]:
     print("The pilot's nickname is 'Wash'.")
 else:
     print("The pilot doesn't have a nickname.")
+
 Output: 'The pilot's nickname is 'Wash'.'
 
 #In this example, we use string slicing to check if the substring "Wash" appears in the part of the string that
